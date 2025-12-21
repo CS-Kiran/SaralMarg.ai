@@ -48,7 +48,7 @@ const HeroSection = () => {
 
               <div className="grid grid-cols-3 gap-6 pt-6">
                 <div className="space-y-1">
-                  <div className="text-3xl font-bold text-orange-600">10K+</div>
+                  <div className="text-3xl font-bold text-orange-600">100+</div>
                   <div className="text-sm text-gray-600">Reports Filed</div>
                 </div>
                 <div className="space-y-1">
@@ -56,8 +56,8 @@ const HeroSection = () => {
                   <div className="text-sm text-gray-600">Resolution Rate</div>
                 </div>
                 <div className="space-y-1">
-                  <div className="text-3xl font-bold text-orange-600">50+</div>
-                  <div className="text-sm text-gray-600">Cities</div>
+                  <div className="text-3xl font-bold text-orange-600">360</div>
+                  <div className="text-sm text-gray-600">Coverage</div>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ const HeroSection = () => {
                   src="/landing.png"
                   alt="Smart Infrastructure"
                   fill
-                  className="object-cover"
+                  className="object-cover animate-in shadow-2xl"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
                 />
               </div>
