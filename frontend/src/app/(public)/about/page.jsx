@@ -1,13 +1,9 @@
 import Image from "next/image";
-import Navbar from "@/components/layout/Navbar";
-import { Target, Eye, Heart, Users, TrendingUp, Shield, Zap, Award } from "lucide-react";
+import { Target, Eye, Heart, Users, Shield, Zap, Award } from "lucide-react";
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen bg-secondary scroll-smooth">
-      <Navbar />
-      
-      {/* Hero Section */}
       <div className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 animate-in fade-in slide-in-from-top duration-700">
@@ -20,7 +16,6 @@ const AboutPage = () => {
             </p>
           </div>
 
-          {/* Main Content Grid */}
           <div className="grid lg:grid-cols-2 gap-20 mb-16">
             <div className="animate-in fade-in slide-in-from-left duration-700">
               <div className="relative group">
@@ -37,9 +32,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            {/* Right Side - Mission & Vision */}
             <div className="space-y-6 animate-in fade-in slide-in-from-right duration-700 delay-200">
-              {/* Mission Card */}
               <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 group">
                 <div className="flex items-start space-x-4">
                   <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-orange-200 transition-colors duration-300">
@@ -56,7 +49,6 @@ const AboutPage = () => {
                 </div>
               </div>
 
-              {/* Vision Card */}
               <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 group">
                 <div className="flex items-start space-x-4">
                   <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-orange-200 transition-colors duration-300">
@@ -75,10 +67,9 @@ const AboutPage = () => {
             </div>
           </div>
 
-          {/* Stats Section */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             <div className="bg-white rounded-2xl p-6 shadow-lg transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-2">10K+</div>
+              <div className="text-4xl font-bold text-orange-600 mb-2">100+</div>
               <div className="text-sm text-gray-600 font-medium">Reports Filed</div>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-lg transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer text-center">
@@ -86,8 +77,8 @@ const AboutPage = () => {
               <div className="text-sm text-gray-600 font-medium">Resolution Rate</div>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-lg transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-2">50+</div>
-              <div className="text-sm text-gray-600 font-medium">Cities Covered</div>
+              <div className="text-4xl font-bold text-orange-600 mb-2">360</div>
+              <div className="text-sm text-gray-600 font-medium">Coverage</div>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-lg transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer text-center">
               <div className="text-4xl font-bold text-orange-600 mb-2">24/7</div>

@@ -1,11 +1,9 @@
 import Image from "next/image";
-import Navbar from "@/components/layout/Navbar";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 
 const ContactPage = () => {
   return (
     <div className="h-screen overflow-hidden bg-secondary flex items-center px-2 sm:px-4 lg:px-6">
-      <Navbar />
       <div className="max-w-7xl mx-auto w-full mt-2">
         <div className="text-center mb-6 animate-in fade-in slide-in-from-top duration-700">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
