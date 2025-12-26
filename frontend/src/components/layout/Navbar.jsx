@@ -48,13 +48,13 @@ const Navbar = () => {
                 }`}
               ></span>
             </Link>
-            <a
+            <Link
               href="#public_map"
               className="text-gray-700 hover:text-orange-600 transition-colors duration-300 font-medium relative group"
             >
               Public Map
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 group-hover:w-full transition-all duration-300"></span>
-            </a>
+            </Link>
             <Link
               href="/about"
               className={`transition-colors duration-300 font-medium relative group ${
@@ -88,10 +88,10 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-gray-700 hover:text-orange-600 transition-colors duration-300 font-medium relative group">
+            <Link href="/login" className="cursor-pointer text-gray-700 hover:text-orange-600 transition-colors duration-300 font-medium relative group">
               Login
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 group-hover:w-full transition-all duration-300"></span>
-            </button>
+            </Link>
             <button className="cursor-pointer px-6 py-2 bg-sidebar-accent-foreground text-white rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300">
               Sign Up
             </button>
@@ -154,10 +154,10 @@ const Navbar = () => {
               Contact
             </Link>
             <div className="pt-3 border-t border-orange-100 space-y-2">
-              <button className="w-full px-4 py-2 text-gray-800 hover:text-gray-900 border-orange-600 rounded-lg hover:bg-orange-50 transition-all duration-300">
+              <Link href="/login" className="cursor-pointer w-full px-4 py-2 text-gray-800 hover:text-gray-900 border-orange-600 rounded-lg hover:bg-orange-50 transition-all duration-300">
                 Login
-              </button>
-              <button className="w-full px-4 py-2 bg-sidebar-accent-foreground text-white rounded-full hover:shadow-lg transition-all duration-300">
+              </Link>
+              <button className="cursor-pointer w-full px-4 py-2 bg-sidebar-accent-foreground text-white rounded-full hover:shadow-lg transition-all duration-300">
                 Sign Up
               </button>
             </div>

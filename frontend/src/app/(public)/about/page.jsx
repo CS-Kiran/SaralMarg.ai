@@ -3,7 +3,7 @@ import { Target, Eye, Heart, Users, Shield, Zap, Award } from "lucide-react";
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen bg-secondary scroll-smooth">
+    <div className="min-h-screen scroll-smooth">
       <div className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 animate-in fade-in slide-in-from-top duration-700">

@@ -3,7 +3,7 @@ import { TrendingUp, Users, Shield, MapPin } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen bg-secondary pt-20">
+    <div className="min-h-screen pt-20">
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-400 mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
